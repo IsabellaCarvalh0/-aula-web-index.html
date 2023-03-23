@@ -1,0 +1,15 @@
+<script type="text/javascript">
+	function menu()
+	{
+		prompt("1-opcao\n2-opcao\n3-opcao\n4-opcao\n5-opcao\n6-opcao\n7-opcao\n");
+		const CAFE = 500
+		const ARROZ = 5000
+		const ACUCAR = 5000
+		const BISCOITO = 400
+		const FUBA = 500
+		const FARINHA = 10000 
+		const RACAO_CACHORRO = 1000
+
+	}
+	
+</script>

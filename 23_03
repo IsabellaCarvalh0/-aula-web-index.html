@@ -1,15 +1,51 @@
 <script type="text/javascript">
 	function menu()
 	{
-		prompt("1-opcao\n2-opcao\n3-opcao\n4-opcao\n5-opcao\n6-opcao\n7-opcao\n");
-		const CAFE = 500
-		const ARROZ = 5000
-		const ACUCAR = 5000
-		const BISCOITO = 400
-		const FUBA = 500
-		const FARINHA = 10000 
-		const RACAO_CACHORRO = 1000
+		let opcao=prompt("1 - Encher pote de feijão \n2 - Encher pote de café \n3 - Encher pote de arroz \n4 - Encher pote de açúcar \n5 - Encher pote de biscoito \n6 - Encher pote de fubá \n7 - Encher pote de ração de cachorro \n8 - Encher pote de farinha \n99 - Sair do sistema");
 
+		const POTE_FEIJAO = 500,
+		POTE_CAFE = 500,
+		POTE_ARROZ = 5000,
+		POTE_ACUCAR = 5000,
+		POTE_BISCOITO = 400,
+		POTE_FUBA = 500,
+		POTE_RACAO_CACHORRO = 1000,
+		POTE_FARINHA = 1000;
+
+		var encheFeijao=0, encheCafe=0, encheArroz=0, encheAcucar=0, encheBiscoito=0, encheFuba=0, encheracaoCachorro=0, encheFarinha=0;
 	}
-	
+
+	function enche_feijao(qtde)
+	{
+		alert("Entrei na função \"Enche Feijão\"");
+	}
+	function enche_cafe(qtde)
+	{
+		alert("Entrei na função \"Enche Café\"");
+	}
+	function enche_arroz(qtde)
+	{
+		alert("Entrei na função \"Enche Arroz\"");
+	}
+	function enche_acucar(qtde)
+	{
+		alert("Entrei na função \"Enche Açúcar\"");
+	}
+	function enche_biscoito(qtde)
+	{
+		alert("Entrei na função \"Enche Biscoito\"");
+	}
+	function enche_fuba(qtde)
+	{
+		alert("Entrei na função \"Enche Fubá\"")
+	}
+	function enche_racao_cachorro(qtde)
+	{
+		alert("Entrei na função \"Enche Ração de Cachorro\"")
+	}
+	function enche_farinha(qtde)
+	{
+		alert("Entrei na função \"Enche Farinha\"")
+	}
+	switch ()
 </script>
